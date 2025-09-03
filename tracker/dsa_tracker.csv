@@ -1,0 +1,6 @@
+Date,Problem Name,LeetCode Link,Difficulty,Category,Approach,Time Complexity,Space Complexity,Time Taken (mins),Status,Notes,Review Date
+2024-01-01,Two Sum,https://leetcode.com/problems/two-sum/,Easy,Arrays,Hash Map,O(n),O(n),15,Completed,Good hash map usage,2024-01-15
+2024-01-02,Valid Parentheses,https://leetcode.com/problems/valid-parentheses/,Easy,Stack,Stack,O(n),O(n),10,Completed,Classic stack problem,2024-01-16
+2024-01-03,Maximum Subarray,https://leetcode.com/problems/maximum-subarray/,Medium,Arrays,Kadane's Algorithm,O(n),O(1),20,Completed,Important DP pattern,2024-01-17
+2024-01-04,Binary Tree Inorder Traversal,https://leetcode.com/problems/binary-tree-inorder-traversal/,Easy,Tree,Recursion/Stack,O(n),O(n),12,Completed,Both recursive and iterative,2024-01-18
+2024-01-05,Climbing Stairs,https://leetcode.com/problems/climbing-stairs/,Easy,DP,Fibonacci Pattern,O(n),O(1),8,Completed,Simple DP introduction,2024-01-19
