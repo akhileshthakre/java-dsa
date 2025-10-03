@@ -28,10 +28,7 @@ public class BFSGraph {
                 }
             }
         }
-        
         System.out.println(res);
-
-
     }
 
     public void edgeListToList(List<List<Integer>> list, int size) {
@@ -43,16 +40,18 @@ public class BFSGraph {
             graph.computeIfAbsent(u, k -> new ArrayList<>()).add(v);
             graph.computeIfAbsent(v, k -> new ArrayList<>()).add(u);
         }
-        bfs(graph, size, 2);
+        bfs(graph, size, 0);
     }
     public static void main(String[] args) {
         BFSGraph bfs = new BFSGraph();
         List<List<Integer>> edgeList = new ArrayList<>();
         edgeList.add(Arrays.asList(0,1));
         edgeList.add(Arrays.asList(0,2));
-        edgeList.add(Arrays.asList(3,5));
-        edgeList.add(Arrays.asList(5,4));
+        edgeList.add(Arrays.asList(2,3));
+        edgeList.add(Arrays.asList(3,4));
         edgeList.add(Arrays.asList(4,3));
+        edgeList.add(Arrays.asList(1,5));
+
 
         bfs.edgeListToList(edgeList, edgeList.size());
     }
