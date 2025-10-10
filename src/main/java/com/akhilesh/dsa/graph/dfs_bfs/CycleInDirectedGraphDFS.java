@@ -10,8 +10,8 @@ public class CycleInDirectedGraphDFS {
 
         for(int edge: graph.get(source)) {
             if(!vis[edge]) {
-                vis[edge] = true;
-                currNodes[edge] = true;
+                // vis[edge] = true;
+                // currNodes[edge] = true;
                 if(dfs(graph, vis, currNodes, edge)){
                     return true;
                 }
